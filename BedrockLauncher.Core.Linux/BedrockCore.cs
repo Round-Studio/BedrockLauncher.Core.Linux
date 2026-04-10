@@ -20,6 +20,7 @@ namespace BedrockLauncher.Core
 	{
 		Preview,
 		Release,
+		Beta,
 		All,
 	}
 	public class BedrockCore
