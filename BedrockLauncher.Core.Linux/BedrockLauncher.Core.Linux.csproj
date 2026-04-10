@@ -9,8 +9,10 @@
     <Title>BedrockLauncher.Core.Linux</Title>
     <Authors>Round-Studio</Authors>
     <Description>BedrockLauncher.Core for Linux</Description>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <RootNamespace>BedrockLauncher.Core</RootNamespace>
+    <PackageProjectUrl>https://github.com/Round-Studio/BedrockLauncher.Core.Linux</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Round-Studio/BedrockLauncher.Core.Linux</RepositoryUrl>
   </PropertyGroup>
 	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
 		<Exec Command="dotnet fsi BuildChain/BuilderBefore.fsx" />
